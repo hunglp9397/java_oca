@@ -1,6 +1,23 @@
+import java.lang.*;
+import java.lang.*;
 public class Test {
-    public static void main(String[] args) {
-        Foo foo = new Foo();
+    static int start = 2;
+
+    public void foo(){
+        String a;
+    }
+
+
+    public static void main(String... start) {
+        System.out.println(start);
 
     }
+}
+interface a{
+
+}
+
+
+interface b {
+
 }
