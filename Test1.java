@@ -1,4 +1,6 @@
 
+import library.Book;
+
 import static java.lang.Math.PI;
 public class Test1 {
     static double a;
@@ -6,26 +8,77 @@ public class Test1 {
      static long c;
      static short d;
 
-    public static void main(String[] args) {
-//        System.out.println(PI);
+//    public static void main(String[] args) {
+//        int x = 0;
+//        System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
 //
-//       Test1 t = new Test1();
-//       t.a = 1;
-//        System.out.println(t.a);
-//        int a = Integer.valueOf("4");
-//        int b = Integer.parseInt("5");
+//
+////
+////        int dayOfWeek = 5;
+////        switch(dayOfWeek) {
+////            case 0:
+////                System.out.println("Sunday");
+////            default:
+////                System.out.println("Weekday");
+////            case 6:
+////                System.out.println("Saturday");
+////                break;
+////        }
+////        int x = 0;
+////        long y = 10;
+////        for( y = 0,  x = 4; x < 5 && y < 10; x++, y++) {
+////            System.out.print(x + " ");
+////        }
+////
+////        int[][] myComplexArray = {{5,2,1,3},{3,9,8,9},{5,7,12,7}};
+////        for(int[] mySimpleArray : myComplexArray) {
+////            for(int i=0; i<mySimpleArray.length; i++) {
+////                System.out.print(mySimpleArray[i]+"\t");
+////            }
+////            System.out.println();
+////        }
+////
+////        java.util.List<Integer> list = new java.util.ArrayList<Integer>();
+//
+//
+//        int m = 9, n = 1, x = 0;
+//        while(m > n){
+//            m--;
+//            n +=2;
+//            x += m + n;
+//        }
+//        System.out.println( x);
+//
+//
+//
+//
+//    }
 
+    public static void main(String[] args) {
+      Integer a = null;
+      Integer b = null;
+      boolean c = a && b;
 
-        int baseDecimal = 267;
-        int octVal = 0413;
-        int hexVal = 0x10B;
-        int binVal = 0b100001011;
-        System.out.println (baseDecimal + octVal);
-        System.out.println (hexVal + binVal);
     }
 
-    public String convert(Integer value){
-        return value.toString();
-
+    void foo2(){
+        byte x = 5;
+        byte y = 10;
+        double z = x  + y;
     }
+
+    void foo(){
+        int x = 5;
+        System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
+
+        String s= null;
+    }
+
+
+//    public static int increment(Integer obj){
+//        return ++obj;
+//    }
+//    public String convert(Integer value){
+//        return value.toString();
+//    }
 }
