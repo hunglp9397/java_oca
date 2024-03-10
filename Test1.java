@@ -57,7 +57,7 @@ public class Test1 {
     public static void main(String[] args) {
       Integer a = null;
       Integer b = null;
-      boolean c = a && b;
+
 
     }
 
