@@ -1,8 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.stream.Stream;
+import java.time.LocalDate;
+import java.time.Month;
 
 public final class Test2 {
     String s;
@@ -52,23 +49,49 @@ public final class Test2 {
 //        System.out.println(first);
 //        System.out.println(second);
 
+//
+//        List<String> listStr = new ArrayList<>();
+//        listStr.add("a");
+//        listStr.add("b");
+//        String [ ] strArr = listStr.toArray(new String[0]);
+//        Object [] objectArray = listStr.toArray(new Object[3]);
+//
+//        System.out.println(strArr.length);
+//        Stream.of(strArr).forEach(System.out::println);
+//
+//        System.out.println(objectArray.length);
+//        Stream.of(objectArray).forEach(System.out::println);
 
-        List<String> listStr = new ArrayList<>();
-        listStr.add("a");
-        listStr.add("b");
-        String [ ] strArr = listStr.toArray(new String [0]);
-        System.out.println(strArr.length);
-        Stream.of(strArr).forEach(System.out::println);
+//        String [] array = {"x", "y"};
+//        List<String> list = Arrays.asList(array);
+//        System.out.println(list.size());
+//        list.forEach(System.out::println);
+//
+//        array[0] = "xxxxxx";
+//        list.set(1, "yyyyyy");
+//
+//        list.forEach(System.out::println);
+//
+//        list.add("new item");
+//        list.remove(0);
+
+//        list.remove(1);
 
 
 
+        LocalDate start = LocalDate.of(2015, Month.JANUARY, 1);
+        LocalDate end = LocalDate.of(2015, Month.MARCH, 30);
 
+        perform(start, end);
 
+    }
 
-
-
-
-
+    static void perform(LocalDate start, LocalDate end){
+        LocalDate upTo = start;
+        while(upTo.isBefore(end)){
+            System.out.println("give new toy" + upTo);
+            upTo = upTo.plusMonths(1);
+        }
     }
 
 
