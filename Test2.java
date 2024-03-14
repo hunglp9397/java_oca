@@ -107,12 +107,32 @@ public final class Test2 {
 //        System.out.println(shortDateTime.format(date)); // 1/20/20
 //        System.out.println(shortDateTime.format(time)); // UnsupportedTemporalTypeException
 
+//
+//        DateTimeFormatter formater = DateTimeFormatter.ofPattern("MM dd yyyy");
+//        LocalDate date = LocalDate.parse("01 02 2015", formater);
+//        LocalTime time = LocalTime.parse("11:22");
+//        System.out.println(date); // 2015-01-02
+//        System.out.println(time); // 11:22
 
-        DateTimeFormatter formater = DateTimeFormatter.ofPattern("MM dd yyyy");
-        LocalDate date = LocalDate.parse("01 02 2015", formater);
-        LocalTime time = LocalTime.parse("11:22");
-        System.out.println(date); // 2015-01-02
-        System.out.println(time); // 11:22
+//        String init = null;
+//        init += "java";
+//        System.out.println(init);
+//
+//        String lang1 = "Java";
+//        String lang2 = "JaScala";
+//        String returnValue1 = lang1.substring(0,1);
+//        String returnValue2 = lang2.substring(0,1);
+//
+//        System.out.println(returnValue1);
+//        System.out.println(returnValue2);
+//
+//        DateTimeFormatter formater = DateTimeFormatter.ofPattern("MM dd yyyy");
+//        LocalDate date = LocalDate.parse("01 02 2015", formater);
+//        LocalTime time = LocalTime.parse("11:22");
+//        System.out.println(date); // 2015-01-02
+//        System.out.println(time); // 11:22
+
+
 
     }
 
