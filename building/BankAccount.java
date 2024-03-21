@@ -12,7 +12,6 @@ public class BankAccount {
                     acctType == compareObj.acctType);
         } else
             return false;
-
     }
 }
 
