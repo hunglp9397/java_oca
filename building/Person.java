@@ -110,9 +110,31 @@ public class Person {
 //                .SHORT);
 //        System.out.println(f.format(d));
 
-        int[] nums = new int []{1,2,3};
-        System.out.println(Arrays.binarySearch(nums,2));
-        System.out.println(Arrays.binarySearch(nums,3));
+//        int[] nums = new int []{3,2,1};
+//        System.out.println(Arrays.binarySearch(nums,2));
+//        System.out.println(Arrays.binarySearch(nums,3));
+
+//        List<String> stringList = new ArrayList<>();
+//        stringList.add("num");
+//        stringList.remove(new String("num"));
+//
+//        int []nums = new int[];
+//        System.out.println(nums);
+
+//        List<String> stringList = new ArrayList<>();
+//        stringList.add("num");
+//        stringList.remove(new String("num"));
+
+         int [][] num = new int [3][2];
+        System.out.println(num
+                .length);
+
+
+        boolean [][][] s;
+
+
+
+
 
     }
 }
