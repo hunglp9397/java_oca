@@ -10,7 +10,12 @@ public class Test_2 {
     static int [][] game;
 
     private static  int count;
+
+    public static void test(int... vargs){
+        System.out.println(vargs.length);
+    }
     public static void main(String[] args) {
+        test(new int [] {2,4});
 
 //        List<String> bottles = Arrays.asList("galass","plassitc");
 //        String race= "";
@@ -27,9 +32,6 @@ public class Test_2 {
 //        } while (count > 0);
 //        System.out.println(chars.size());
 
-
-
-
 //        Arrays.sort(args);
 //        String result = Arrays.binarySearch(args, args[0]);
 
@@ -45,13 +47,7 @@ public class Test_2 {
 //
 //        List<Integer> list = new ArrayList<>();
 //        System.out.println(list);
-
-
-
-
-
 //
-
 //        String [][] matrix = new String[1][2];
 //
 //        matrix[1][0] = "asdf";
@@ -60,8 +56,5 @@ public class Test_2 {
 //        String []os  = new String[]{"Mac", "linux", "windows"};
 //        Arrays.sort(os);
 //        System.out.println(Arrays.binarySearch(os, "Mac"));
-
-
-
     }
 }
