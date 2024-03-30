@@ -8,13 +8,16 @@ import static java.util.Arrays.asList;
 
 public class Init {
 
-    public static void main(String[] args) {
-        StringBuilder name = new StringBuilder();
-        concatRandomStr(name);
-        System.out.println(name);
+//    public void foo (String value){
+//        System.out.println("String");
+//    }
+
+    public void foo (Object value){
+        System.out.println("object");
     }
 
-    public static void concatRandomStr(StringBuilder s){
-        s.append("Webby");
+    public static void main(String []args){
+        new Init().foo("temp");
+        new Init().foo("object");
     }
 }
