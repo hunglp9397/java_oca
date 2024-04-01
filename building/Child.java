@@ -2,13 +2,15 @@ package building;
 
 public class Child extends Parent{
 
-    Child(){
+
+    Child(String s) {
+        super(s);
+    }
+
+
+
+    public static void main(String[] args) {
 
     }
 
-    Child(String a){
-       super.a = "123";
-
-
-    }
 }
