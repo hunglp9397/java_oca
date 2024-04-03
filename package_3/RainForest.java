@@ -3,8 +3,7 @@ package package_3;
 import building.Inte;
 
 import java.util.ArrayList;
-
-public class RainForest  {
+class RainForest  {
 
 
 
