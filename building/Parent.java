@@ -6,7 +6,7 @@ public class Parent {
 
 
 
-    Parent(String s){
+    public Parent(String s){
 
     }
 }

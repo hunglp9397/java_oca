@@ -5,19 +5,16 @@ import java.io.IOException;
 
 public class Child extends Parent{
 
-
-    public Child(String name) {
+    public Child(String name){
         super(name);
-    }
-
-
-    @Override
-    public void foo()   throws IOException {
 
     }
 
-    public static void main(String[] args) {
+    String getName(){
+        return this.name;
     }
+
+
 }
 
 
