@@ -1,7 +1,14 @@
 package package_1;
 
-public class Fish extends Animal{
-    public int length = 5;
+import building.Animal;
+
+public class Fish extends Animal {
+
+    public Fish(String speciesName, boolean hopper, boolean swimmer) {
+        super(speciesName, hopper, swimmer);
+    }
+
+
 }
 
 
