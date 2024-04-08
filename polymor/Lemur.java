@@ -6,7 +6,9 @@ public class Lemur extends Primate implements HasTail{
         return false;
     }
 
-
+    public boolean hasHair(){
+        return true;
+    }
     public int age = 10;
 
     public static void main(String[] args) {
@@ -22,10 +24,10 @@ public class Lemur extends Primate implements HasTail{
 //        abstractABC.doSomething();
 //        System.out.println(abstractABC.b);
 
-
+//
         Primate primate = lemur;
         System.out.println(primate.hasHair());
-        System.out.println(primate.isTailStriped());
+
 
 
     }
