@@ -7,5 +7,9 @@ public class BigCat {
 
     static void foo() throws RuntimeException{
 
+        double k = 1;
+        double x = 1.0f;
+        float y = 1.0F;
+
     }
 }
