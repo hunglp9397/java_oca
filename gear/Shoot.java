@@ -18,14 +18,13 @@ public class Shoot {
 
     static void prepare(double angle, Target t){
 
-        StringBuilder builder = new StringBuilder("0123456");
-        builder.sub
+     
 
 
-        StringBuilder builder = new StringBuilder();
+
 
         System.out.println(s.length());
-        System.out.println(builder.length());
+
 
 
         StringBuilder m = new StringBuilder();
