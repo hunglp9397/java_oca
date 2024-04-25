@@ -14,6 +14,6 @@ public abstract  class Sphere {
         String s= mystery.toString();
 
         Predicate<String> pred = (String  o) -> true;
-        Predicate dash = c -> c.s
+
     }
 }
