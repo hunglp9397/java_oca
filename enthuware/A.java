@@ -1,6 +1,12 @@
 package enthuware;
 
 public class A {
-    int i;
+    A(){
+        print();
+    }
+
+    void print(){
+        System.out.println("A");
+    }
 
 }

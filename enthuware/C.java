@@ -2,7 +2,7 @@ package enthuware;
 
 import building.Inte;
 
-public class C extends B{
+public class C{
 
 
 
