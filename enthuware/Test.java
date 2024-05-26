@@ -32,6 +32,8 @@ public class Test {
 
     public static void main(String[] args) {
 
+        int i1 = 1, i2 = 2, i3= 3;
+
 
 //        int intValue = 1;
 //        short shortValue = 1;
