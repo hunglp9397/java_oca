@@ -11,7 +11,13 @@ public class Noobs {
     }
 
     public static void main(String[] args) {
-        char c1 = 'u';
-        System.out.println(c1);
+       StringBuilder sb = new StringBuilder("12345678");
+       sb.setLength(5);
+       sb.setLength(0);
+        System.out.println(sb.length());
+    }
+
+    void foo() throws Throwable {
+
     }
 }
